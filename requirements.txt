@@ -1,0 +1,16 @@
+# No external libraries required.
+# This project uses only Python standard libraries (tested on Python 3.8+).
+
+# If you want to create a virtual environment (recommended):
+# Windows
+# python -m venv .venv
+# .venv\Scripts\activate
+#
+# macOS / Linux
+# python3 -m venv .venv
+# source .venv/bin/activate
+
+# Install dependencies (none required):
+# pip install -r requirements.txt
+
+# Requirements file intentionally empty because the standard library is sufficient.

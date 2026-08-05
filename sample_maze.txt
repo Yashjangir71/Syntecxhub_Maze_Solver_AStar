@@ -1,0 +1,54 @@
+S...#....
+.##.#.##.
+....#....
+###.#.##.
+....#....
+.######..
+.........
+.######.#
+........G
+
+Meaning of Symbols
+| Symbol | Meaning               |
+| ------ | --------------------- |
+| `S`    | Start Position        |
+| `G`    | Goal Position         |
+| `.`    | Empty Cell (Walkable) |
+| `#`    | Wall (Obstacle)       |
+
+
+Maze Layout
+
+S . . . # . . . .
+. # # . # . # # .
+. . . . # . . . .
+# # # . # . # # .
+. . . . # . . . .
+. # # # # # # . .
+. . . . . . . . .
+. # # # # # # . #
+. . . . . . . . G
+
+Expected Output
+
+When you run:
+python main.py
+
+You'll first see the original maze:
+Original Maze:
+
+S . . . # . . . .
+. # # . # . # # .
+. . . . # . . . .
+# # # . # . # # .
+. . . . # . . . .
+. # # # # # # . .
+. . . . . . . . .
+. # # # # # # . #
+. . . . . . . . G
+
+Then, if a path exists, you'll see:
+
+✅ The maze with the shortest path marked using *
+✅ A list of the path coordinates
+✅ The total number of steps

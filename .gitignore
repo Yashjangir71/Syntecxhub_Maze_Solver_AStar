@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.vscode/
+.idea/
+dist/
+build/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# VS Code
+.vscode/
